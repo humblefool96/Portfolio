@@ -1,0 +1,182 @@
+.b-image {
+	/*background-repeat: no-repeat;*/
+	width : 1348px ;
+	height: 600px ;
+	background-image: url('bgi4.jpg');
+}
+
+h1{
+	font-size: 70px ;
+	color: #3FBF7F ;
+	text-align: center ;
+	font-family: "Times New Roman", Times, serif;
+}
+
+h3{
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+}
+
+#cv{
+	font-size: 22px ;
+	margin: auto;
+	display: block;
+	border-radius: 12px;
+	font-family: "Times New Roman", Times, serif;
+
+}
+.nav-item:hover{
+	background-color: #3FBF7F;	
+}
+#cv:hover{ 
+  background-color: #3FBF7F;
+}
+/* About page*/
+.about{
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+}
+.about h2,.project h2 {
+	color: #417505;
+	margin: 2em;
+	text-align: center;
+}
+.about img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%
+}
+.about span{
+	display: block;
+	color: #888;
+	position: absolute;
+	left: 115px;
+}
+.about .desc{
+	padding: 2em;
+	border-left:4px solid #10828C;
+}
+.about .desc h3{
+	color: #10828C;
+}
+.about .desc p{
+	line-height:2;
+	color:#888;
+}
+
+/* Skills */
+.skills{
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+}
+.skills h2{
+	color: #417505;
+	margin: 2em;
+	text-align: center;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.progress {
+	width: 100%; /* Full width */
+	background-color: #ddd; /* Grey background */
+}
+.jumbotron h5{
+	color: #417505 ;
+}
+.progress {
+	text-align: left; /* Right-align text */
+	padding: 2px; /* Add some padding */
+	color: white; /* White text color */
+}
+/*project section*/
+.project {
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+	padding: 2px 16px;
+}
+.news_bt {
+	padding: 2em;
+	
+}
+#work img {
+	height: 250px;
+	width: 300px ;
+}
+/*#pro {
+	margin: 1px;
+}*/
+/*.project img {
+	vertical-align: middle;
+	border-style: none;
+
+}
+*/
+
+
+*.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+
+
+
+/*-- footer --*/
+a.move-top span {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(102, 102, 102, 0.30);
+    line-height: 26px;
+    margin: 20px 0;
+    border-radius: 50%;
+}
+footer {
+    background: #191919;
+}
+.social ul li {
+    display: inline-block;
+}
+.social ul li a {
+    color: #999;
+    text-align: center;
+}
+.social ul li a span{
+      height: 42px;
+    width: 42px;
+    font-size: 13px;
+    background: #222;
+    line-height: 42px;
+    color: #999;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.social ul li a i:hover {
+    background: #fff;
+    color: #333;
+    border: 1px solid #fff;
+}
+.copyright p,.copyright p a{
+    color: #999;
+    font-size: 15px;
+    margin: 0;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+.copyright a:hover {
+    color: #fff;
+}
+/*-- //footer --
